@@ -3,9 +3,7 @@
 }
 
 .list-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include center-flex();
 }
 
 .list-button-item:not(:last-child) {

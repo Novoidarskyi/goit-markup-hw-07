@@ -1,7 +1,5 @@
 .advantages-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include center-flex($jc: space-between);
 }
 
 .advantages-list-item:not(:last-child) {

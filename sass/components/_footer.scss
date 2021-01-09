@@ -63,9 +63,7 @@
 }
 
 .footer-social-links-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include center-flex($jc: space-between);
 }
 
 .footer-social-links-item {
@@ -102,9 +100,7 @@
 }
 
 .subscribe-form {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include center-flex($jc: space-between);
 }
 
 .subscribe-input {
@@ -129,9 +125,7 @@
 }
 
 .subscribe-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include center-flex();
   min-width: 200px;
   padding: 10px 28px;
   border: 1px solid transparent;

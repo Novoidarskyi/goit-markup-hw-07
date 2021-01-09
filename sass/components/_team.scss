@@ -3,9 +3,7 @@
 }
 
 .team-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include center-flex($jc: space-between);
 }
 
 .team-list-item:not(:last-child) {
@@ -51,9 +49,7 @@
 }
 
 .social-links-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include center-flex($jc: space-between);
 }
 
 .social-links-item {

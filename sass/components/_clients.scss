@@ -1,13 +1,9 @@
 .clients-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include center-flex($jc: space-between);
 }
 
 .clients-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include center-flex();
 
   width: 170px;
   height: 90px;

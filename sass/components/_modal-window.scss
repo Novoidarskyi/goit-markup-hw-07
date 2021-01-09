@@ -84,9 +84,7 @@
 }
 
 .modal-form-policy-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include center-flex();
   margin-bottom: 30px;
 
   &::before {
