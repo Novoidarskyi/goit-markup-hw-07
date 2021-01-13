@@ -6,10 +6,6 @@
   --accent-color: #2196f3;
 }
 
-body {
-  font-family: var(--main-font);
-}
-
 ul {
   list-style: none;
   margin: 0;
@@ -78,6 +74,10 @@ img {
 .section-container {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+body {
+  font-family: var(--main-font);
 }
 
 .header {
@@ -394,13 +394,18 @@ img {
 }
 
 .footer-contact {
-  display: block;
+  display: inline;
+  width: 231px;
   margin-right: 70px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.174;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover, .footer-contact:focus {
+  color: var(--accent-color);
 }
 
 .footer-contact-item:not(:last-child) {
